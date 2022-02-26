@@ -1,0 +1,46 @@
+*{
+    font-family: 'popins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+    color: #333;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 26px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+header ul li{
+    list-style: none;
+    margin-left: 25px;
+}
+header ul li a{
+    text-decoration: none;
+    padding: 15px 20px;
+    color: #333;     
+    border-radius: 21px;
+}
+header ul li a:hover,
+header ul li a.active
+{
+    background-color: black;
+    color: #fff;
+}
